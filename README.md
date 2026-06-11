@@ -8,8 +8,8 @@ A simple Full Stack Blog Application built using Django.
 - User Login
 - User Logout
 - Create Blog
-- Edit Blog
-- Delete Blog
+- Edit Own Blog
+- Delete Own Blog
 - View Blogs from Other Users
 
 ## Technologies Used
@@ -17,41 +17,72 @@ A simple Full Stack Blog Application built using Django.
 - Python
 - Django
 - SQLite
+- HTML
+- CSS
+
+## Project Screenshots
+
+### Register Page
+
+![Register Page](screenshots/register-page.png)
+
+---
+
+### Login Page
+
+![Login Page](screenshots/login-page.png)
+
+---
+
+### Home Page
+
+![Home Page](screenshots/home-page.png)
+
+---
+
+### Create Blog Page
+
+![Create Blog Page](screenshots/create-blog-page.png)
+
+---
 
 ## How to Run
 
-1. Clone the repository
+### Clone Repository
 
-2. Create virtual environment
+```bash
+git clone https://github.com/Nandana73/django-blog-project.git
+```
+
+### Create Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-3. Activate virtual environment
+### Activate Virtual Environment
 
 ```bash
 venv\Scripts\activate
 ```
 
-4. Install dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Run migrations
+### Run Server
 
 ```bash
 python manage.py migrate
-```
-
-6. Start server
-
-```bash
 python manage.py runserver
 ```
 
 Open:
 
 http://127.0.0.1:8000/
+
+## Author
+
+Nandana T
